@@ -1,7 +1,8 @@
+
 import React from 'react';
-import Hero from './components/Hero';
-import Blog from './components/Blog';
-import Contact from './components/Contact';
+import Hero from './Components/Hero';
+import Blog from './Components/Blog';
+import Contact from './Components/Contact';
 
 export default function App() {
   return (
