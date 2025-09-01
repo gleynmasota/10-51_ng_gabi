@@ -7,13 +7,13 @@ export default function Blog() {
 
       <article style={{ marginBottom: "2rem" }}>
         <img 
-          src="/Gleyncs3.jpg"   // 👈 file must be in public/Gleyncs3.jpg
+          src="/Gleyncs3.jpg" 
           alt="Gleyn Masota" 
           style={{ width: "150px", borderRadius: "50%", marginBottom: "1rem" }} 
         />
         <h3>Hello Everyone!</h3>
         <p>
-          Hi, I'm Gleyn Masota and welcome to my blog. Here, I’ll be sharing my 
+          Hi, I&apos;m Gleyn Masota and welcome to my blog. Here, I&apos;ll be sharing my 
           thoughts, ideas, and experiences as I continue learning and exploring 
           new things. Stay tuned for more updates!
         </p>
@@ -23,7 +23,7 @@ export default function Blog() {
         <h3>My Journey in Learning React</h3>
         <p>
           Learning React has been an exciting challenge. I started with the basics 
-          of components, props, and state, and I’m slowly building real projects. 
+          of components, props, and state, and I&apos;m slowly building real projects. 
           Every step feels like progress toward becoming a better developer.
         </p>
       </article>
