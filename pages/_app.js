@@ -1,10 +1,14 @@
-import "@/styles/globals.css";
+import React from 'react';
+import Hero from './components/Hero';
+import Blog from './components/Blog';
+import Contact from './components/Contact';
 
-
-export default function App({ Component, pageProps }) {
+export default function App() {
   return (
-   
-      <Component {...pageProps} />
-   
+    <>
+      <Hero />
+      <Blog />
+      <Contact />
+    </>
   );
 }
