@@ -1,10 +1,8 @@
+import Hero from './Components/Hero';
+import Blog from './Components/Blog';
+import Contact from './Components/Contact';
 
-import React from 'react';
-import Hero from './Footer/Hero';
-import Blog from './Footer/Blog';
-import Contact from './Footer/Contact';
-
-export default function App() {
+export default function Home() {
   return (
     <>
       <Hero />
